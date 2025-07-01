@@ -1,5 +1,5 @@
 # Notica
-This is a web application for managing personal notes, developed with React JS.
+This is a web application for managing personal notes, developed with Next.js.
 
 
 ## Getting Started
