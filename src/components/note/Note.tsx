@@ -56,11 +56,11 @@ function Note(props: INote) {
 
     return (
         <div className={`w-full px-5 py-3 ${props.color} rounded-md cursor-pointer mb-2 flex items-center justify-between `}>
-            <span className='flex items-center'>{props.password != "" ? <CiLock className='mr-1' /> : ""} {props.title}</span>
+            <span className='flex items-center  text-black '>{props.password != "" ? <CiLock className='mr-1' /> : ""} {props.title}</span>
             <div className='flex'>
-                <p onClick={()=>handleDelete(props.id)} className='w-8 h-8  flex items-center justify-center text-xl ml-2 	 hover:text-red-600'><CiTrash /></p>
-                <p onClick={() => setedit(true)} className='w-8 h-8  flex items-center justify-center  text-xl ml-2 hover:text-green-600'><CiEdit /></p>
-                <p onClick={() => setread(true)} className='w-8 h-8  flex items-center justify-center text-xl  ml-2  hover:text-blue-600'><CiRead /></p>
+                <p onClick={()=>handleDelete(props.id)} className='w-8 h-8  flex items-center justify-center text-xl ml-2  text-black 	 hover:text-red-600'><CiTrash /></p>
+                <p onClick={() => setedit(true)} className='w-8 h-8  flex items-center justify-center   text-black text-xl ml-2 hover:text-green-600'><CiEdit /></p>
+                <p onClick={() => setread(true)} className='w-8 h-8  flex items-center justify-center  text-black text-xl  ml-2  hover:text-blue-600'><CiRead /></p>
             </div>
 
             {read && (

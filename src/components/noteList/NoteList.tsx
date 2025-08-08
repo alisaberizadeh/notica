@@ -10,9 +10,9 @@ function NoteList() {
 
     return (
         <div className="col-span-1 min-h-full shadow-2xl  px-10 py-10 overflow-y-scroll">
-            <p className="text-4xl mb-3">Notes</p>
+            <p className="text-4xl mb-3  text-black ">Notes</p>
             <div className="flex mb-5">
-                <span className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border rounded-e-0 border-gray-300 border-e-0 rounded-s-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
+                <span className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border rounded-e-0 border-gray-300 border-e-0 rounded-s-md ">
                     <CiSearch className="text-lg" />
                 </span>
                 <input type="text" className="rounded-none rounded-e-lg bg-white border text-gray-900  block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 outline-0 " placeholder="Search..." />
