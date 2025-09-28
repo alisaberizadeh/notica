@@ -1,6 +1,8 @@
 # Notica
 This is a web application for managing personal notes, developed with Next.js.
 
+# Visit Notica
+https://notica-e7v976.vercel.app/
 
 ## Getting Started
 
